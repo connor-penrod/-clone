@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="steveerwinchaser.LeaderboardViewController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Leaderboard">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="47.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="spot1" layoutX="203.0" layoutY="189.0" text="1. Hotrod =&gt; 900">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="spot2" layoutX="253.0" layoutY="222.0" text="2. Bill S. Preston =&gt; 700">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot3" layoutX="253.0" layoutY="238.0" text="3. Bjorn Haarlnjornsgaard 600">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot4" layoutX="253.0" layoutY="254.0" text="4. The Undertaker =&gt; 400">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot5" layoutX="253.0" layoutY="270.0" text="5. Harry =&gt; 200">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot6" layoutX="253.0" layoutY="286.0" text="6. Suzuki Watamashimatamoto =&gt; 70">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot7" layoutX="253.0" layoutY="302.0" text="7. Anaander Mianaai =&gt; 30">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="spot8" layoutX="253.0" layoutY="318.0" text="8. Jacob Suckora =&gt; -10">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="backButton" layoutX="170.0" layoutY="349.0" text="BACK">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="47.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

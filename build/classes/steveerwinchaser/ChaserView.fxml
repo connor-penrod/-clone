@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="base" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="steveerwinchaser.ChaserViewController">
+   <children>
+      <Pane fx:id="rootPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="scoreText" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score: 0" textAlignment="CENTER" wrappingWidth="136.205078125">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+               </font>
+            </Text>
+            <HBox fx:id="nameForm" alignment="CENTER" layoutX="38.0" layoutY="107.0" prefHeight="43.0" prefWidth="566.0">
+               <children>
+                  <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="120.0" text="Name: ">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nameField" prefHeight="43.0" prefWidth="182.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="submitButton" mnemonicParsing="false" prefHeight="43.0" prefWidth="195.0" text="Submit Score">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <Label fx:id="restartButton" text="RESTART">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="menuButton" text="MAIN MENU">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

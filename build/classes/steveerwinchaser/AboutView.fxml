@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="steveerwinchaser.AboutViewController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="44.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="'Steve Irwin: Crocodile Hunter' is a JavaFX take on the classic Flash game 'Small man chases cursor'. Avoid tiny Steve Irwin for as long as possible to top the Leaderboard and gain eternal bragging rights." textAlignment="CENTER" wrappingWidth="700.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="37.0" />
+               </font>
+            </Text>
+            <Label fx:id="backButton" text="BACK">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="50.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Programmed by Connor Penrod">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="198.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Art by PixelBlock">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
